@@ -5,6 +5,7 @@ const prompt = require('prompt-sync')({sigint: true});
 // Prompts the user to give us an array
 let array1 = JSON.parse(prompt("Please input an array of strings or numbers: "))
 
+let getFirstItem = array1[0];
 // Prints out the first item in that array
-console.log(array1 -1)
+console.log(getFirstItem);
 

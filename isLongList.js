@@ -7,7 +7,7 @@ let list1 = JSON.parse(prompt("Please enter an array:  "));
 if (list1.length > 10){
     console.log("Your length is at least 10 >> true")
 }else{
-    console.log("Your length is not 10 >> false");
+    console.log("Your length is not at least 10 >> false");
 }
 
 

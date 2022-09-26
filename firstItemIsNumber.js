@@ -3,7 +3,7 @@ const prompt = require('prompt-sync')({sigint: true});
 
 let itemList = JSON.parse(prompt("Please enter a list of items for the array: "));
 
-if (itemList[0] === typeof "symbol"){
+if (typeof (itemList[0]) ===  "number"){
     console.log("True >> The first item in your list is a number!");
 }else{
     console.log("False >> The first number in your list is not a number. Try again!")
